@@ -1,0 +1,73 @@
+{
+  "data": [{
+    "storeName": "Bel store",
+    "city": "Belgrade",
+    "books": [{
+      "bookName": "Spasitelj",
+      "details": {
+        "author": "Ju Nesbe",
+        "price": "600"
+      }
+    },{
+      "bookName": "Slepi mis",
+      "details": {
+        "author": "Ju Nesbe",
+        "price": "800"
+      }
+    }]
+  },{
+    "storeName": "Laguna store",
+    "city": "Novi Sad",
+    "books": [{
+      "bookName": "Duge noci crne zastave",
+      "details": {
+        "author": "Dejan Stojiljkovic",
+        "price": "1000"
+      }
+    },{
+      "bookName": "Crno Srce",
+      "details": {
+        "author": "Erik van Lustbader",
+        "price": "1100"
+      }
+    },{
+      "bookName": "Konstantinovo raskrsce",
+      "details": {
+        "author": "Dejan Stojiljkovic",
+        "price": "1000"
+      }
+    }]
+  },{
+    "storeName": "Samizdat store",
+    "city": "Belgrade",
+    "books": [{
+      "bookName": "Inferno",
+      "details": {
+        "author": "Den Braun",
+        "price": "1400"
+      }
+    },{
+      "bookName": "Crvena vucica",
+      "details": {
+        "author": "Lisa Marklund",
+        "price": "890"
+      }
+    }]
+  },{
+    "storeName": "Kraguj store",
+    "city": "Kragujevac",
+    "books": [{
+      "bookName": "Tacka prevare",
+      "details": {
+        "author": "Den Braun",
+        "price": "1400"
+      }
+    },{
+      "bookName": "Jelena Savojska",
+      "details": {
+        "author": "Renato Barneski",
+        "price": "800"
+      }
+    }]
+  }]
+}

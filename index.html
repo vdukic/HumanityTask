@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Find book</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <script src="//canjs.com/release/latest/can.jquery.js"></script>
+  <script src="//canjs.com/release/latest/can.construct.super.js"></script>
+  <script src="//canjs.com/release/latest/can.map.define.js"></script>
+  <script src="//canjs.com/release/latest/can.stache.js"></script>
+  <script src="//canjs.com/release/latest/can.fixture.js"></script>
+  <script src="//canjs.com/release/latest/can.list.sort.js"></script>
+  <script type="stache" id="app-template"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bodyCls">
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">All about books</a>
+      </div>
+      <ul id="devTypes" class="nav navbar-nav">
+        <li class="active"><a href="#storeTab">Book stores</a></li>
+        <li><a href="#bookTab">All books</a></li>
+        <li><a href="#detailsTab">Books details</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="storeTab" class="tab storeTab">
+    <script type="text/mustache" id="sort-table">
+      <p class="radioContainer"><b>Sort table by:</b><br/>
+        <input type='radio' id='storeRadio' can-value='sortBy' value='store' /> Store names <br/>
+        <input type='radio' id='cityRadio' can-value='sortBy' value='city' /> Cities
+      </p>
+    </script>
+  </div>
+  <div id="bookTab" class="tab"><b class="allChoosenCls">All books:</b><br/><br/></div>
+  <div id="detailsTab" class="tab"></div>
+
+  <script src="script.js"></script>
+  <script src="store.js"></script>
+  <script src="book.js"></script>
+  <script src="details.js"></script>
+
+  <script>
+  </script>
+</body>
+
+</html>

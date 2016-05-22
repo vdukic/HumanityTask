@@ -1,0 +1,27 @@
+/* Styles go here */
+.bodyCls{
+  background-color: #dedbdb;
+}
+.storeTab table{
+  width: 98%;
+  margin:15px;
+  background-color: #d7d752;
+  border: 1px solid black;
+}
+.storeTab table tr{
+  border: 1px solid black;
+}
+
+.storeTab table tr td{
+  border: 1px solid black;
+  padding-left:5px;
+}
+.radioContainer{
+  margin-left:15px;
+}
+.allChoosenCls{
+  margin-left:10px;
+}
+.radioContainer input{
+  margin-left:8px;
+}
